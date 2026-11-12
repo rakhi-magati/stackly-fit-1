@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#17110D"><meta name="description" content="Simple, flexible membership plans — Basic, Pro and Premium.">
+<title>Membership — StacklyFit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="progress" aria-hidden="true"></div>
+<div class="curtain" aria-hidden="true"><svg viewBox="0 0 320 60"><path d="M0 30h90l16-26 26 52 20-40 14 14h154"/></svg><b>StacklyFit</b></div>
+<header class="site-header"><div class="bar">
+<a class="brand" href="index.html" aria-label="StacklyFit home"><svg viewBox="0 0 40 24" aria-hidden="true"><path d="M2 12h9l4-9 6 18 5-13 3 4h9"/></svg><span>stacklyfit<i>.</i></span></a>
+<nav id="nav"><a href="index.html">Home</a><a href="programs.html">Programs</a><a href="sports.html">Sports</a><a href="membership.html" class=on>Membership</a><a href="about.html">About</a></nav>
+<div class="acts"><a class="login" href="login.html">Log in</a><a class="btn sm join" href="login.html#signup">Join now <b>↗</b></a><button class="burger" id="burger" aria-label="Menu">☰</button></div>
+</div></header>
+<main>
+<section class="hero sub"><div class="wrap"><div class="hero-card">
+<img class="bg" data-par src="assets/images/swimming.jpg" alt="Swimmer training in a pool" style="object-position:center 40%" fetchpriority="high">
+<i class="orb o1"></i><i class="orb o2"></i><i class="orb o3"></i>
+<form class="hsearch" action="programs.html" role="search"><input type="search" name="q" placeholder="Search programs…" aria-label="Search programs"><button aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg></button></form>
+<div class="hero-copy"><h1 aria-label="Flexible Programs, Better Results"><span class="line"><span style="--i:0">Flexible Programs,</span></span><span class="line"><span style="--i:1">Better <em>Results</em></span></span></h1>
+<p class="lead fade" style="--i:0">Choose a membership that moves with you. Simple pricing, no hidden fees, and the freedom to change your plan whenever you need.</p>
+<div class="row fade" style="--i:1"><a class="btn magnet" href="login.html#signup">Start your journey <b>↗</b></a><a class="btn ghost" href="programs.html">Explore programs</a></div></div>
+
+</div></div></section>
+
+<section class="dark-sec" style="margin-top:20px"><div class="wrap">
+<div class="head"><div class="rv"><span class="eyebrow">Membership</span><h2 style="margin-top:14px">Select your ideal plan</h2></div><div class="toggle" id="bill"><i class="pill"></i><button class="on" data-k="m">Monthly</button><button data-k="y">Yearly · save 20%</button></div></div>
+<div class="plans"><article class="plan rv s" style="--d:0.0s"><h3>Basic</h3><div class="price"><span data-m="49" data-y="39">$49</span><small> / month</small></div><p>Perfect for getting started.</p><ul><li>Access to gym facilities</li><li>Basic training programs</li><li>Community support</li></ul><a class="btn light pick" data-plan="Basic" href="login.html#signup">Select plan <b>↗</b></a></article><article class="plan pop rv s" style="--d:0.12s"><span class=hot>Most popular</span><h3>Pro</h3><div class="price"><span data-m="79" data-y="63">$79</span><small> / month</small></div><p>Everything you need to level up.</p><ul><li>All Basic features</li><li>2× personal training sessions</li><li>Personalised workout plan</li><li>Priority class booking</li></ul><a class="btn pick" data-plan="Pro" href="login.html#signup">Select plan <b>↗</b></a></article><article class="plan rv s" style="--d:0.24s"><h3>Premium</h3><div class="price"><span data-m="99" data-y="79">$99</span><small> / month</small></div><p>The complete fitness experience.</p><ul><li>All Pro features</li><li>4× personal training sessions</li><li>Unlimited class access</li><li>Nutrition consultation</li></ul><a class="btn light pick" data-plan="Premium" href="login.html#signup">Select plan <b>↗</b></a></article></div></div></section>
+
+<section><div class="wrap"><div class="fam">
+<div class="fimg rv l"><img src="assets/images/yoga.jpg" alt="Members practising yoga together" loading="lazy" style="object-position:center 30%"><div class="over"><h2>More than fitness, we’re family</h2><p>Join a supportive community that celebrates every milestone with you.</p><a class="go" href="login.html#signup" style="color:var(--ember)">Join now <b>→</b></a></div></div>
+<div class="benefits"><div class="benefit rv r" style="--d:0.0s"><span class="i">1</span><div><b>Advanced fitness equipment</b><small>Premium, well-maintained machines and free weights</small></div></div><div class="benefit rv r" style="--d:0.1s"><span class="i">2</span><div><b>Expert fitness coaches</b><small>Certified guidance for every level</small></div></div><div class="benefit rv r" style="--d:0.2s"><span class="i">3</span><div><b>Flexible plans for every goal</b><small>Upgrade, downgrade or pause when life changes</small></div></div><div class="benefit rv r" style="--d:0.30000000000000004s"><span class="i">4</span><div><b>Wellness support</b><small>Nutrition, recovery and mindset resources</small></div></div></div></div></div></section>
+
+<section style="padding-top:20px"><div class="wrap faq">
+<div class="head" style="justify-content:center;text-align:center"><div class="rv"><span class="eyebrow">FAQ</span><h2 style="margin:14px 0 10px">Frequently asked questions</h2><p style="margin-inline:auto">Find answers to common questions.</p></div></div>
+<div class="faqgrid"><div class="q rv" style="--d:0.0s"><button aria-expanded="false"><span>Can I pause my membership anytime?</span><span class="pl">+</span></button><div class="a"><p>Yes — pause for up to 3 months from your account with no fees. Your plan resumes automatically.</p></div></div><div class="q rv" style="--d:0.0s"><button aria-expanded="false"><span>Is there a free trial available?</span><span class="pl">+</span></button><div class="a"><p>Every new member gets a free 7-day trial on the Basic plan. No card required.</p></div></div><div class="q rv" style="--d:0.08s"><button aria-expanded="false"><span>What are the payment options?</span><span class="pl">+</span></button><div class="a"><p>Credit and debit cards, UPI and net banking. Yearly plans can be paid in one go or in instalments.</p></div></div><div class="q rv" style="--d:0.08s"><button aria-expanded="false"><span>What are the plan options?</span><span class="pl">+</span></button><div class="a"><p>Basic, Pro and Premium. Compare them above — you can upgrade or downgrade at any time.</p></div></div><div class="q rv" style="--d:0.16s"><button aria-expanded="false"><span>Is there a joining fee?</span><span class="pl">+</span></button><div class="a"><p>No joining fee and no hidden charges. You only pay the plan price.</p></div></div><div class="q rv" style="--d:0.16s"><button aria-expanded="false"><span>Are personal trainers included?</span><span class="pl">+</span></button><div class="a"><p>Pro includes 2 personal sessions a month and Premium includes 4. Extra sessions can be added at member rates.</p></div></div></div></div></section>
+</main>
+<footer><div class="wrap">
+<div class="fg">
+<div class="big rv">Unlock your <em>full potential.</em></div>
+<div class="rv" style="--d:.1s"><h4>Quick links</h4><a href="index.html">Home</a><a href="programs.html">Programs</a><a href="sports.html">Sports</a><a href="membership.html">Membership</a><a href="about.html">About</a></div>
+<div class="rv" style="--d:.2s"><h4>Support</h4><a href="mailto:roxxxx@gmail.com">Help centre</a><a href="mailto:roxxxx@gmail.com">Contact</a><a href="#">Privacy</a><a href="#">Terms</a></div>
+<div class="rv" style="--d:.3s"><h4>Connect</h4><a href="tel:+911234567890">+91 1234567890</a><a href="#">Hyderabad</a><a href="mailto:roxxxx@gmail.com">roxxxx@gmail.com</a><div class="soc"><a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6"/></svg></a><a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10 9.5v5l4.5-2.5z"/></svg></a><a href="#" aria-label="X"><svg viewBox="0 0 24 24"><path d="M4 4l16 16M20 4L4 20"/></svg></a></div></div>
+</div>
+<div class="copy"><span>© 2026 StacklyFit. Unlock your full potential.</span><a href="#">Back to top ↑</a></div>
+</div></footer>
+<div class="toast" id="toast" role="status"></div>
+<script src="script.js"></script>
+</body></html>
